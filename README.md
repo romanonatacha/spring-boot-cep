@@ -1,4 +1,4 @@
-# Zipcode consult project
+# Zipcode query project
 
 ## Task
 - Build an **API** with two endpoints:
