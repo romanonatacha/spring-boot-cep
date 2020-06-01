@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class CepRequestDTO {
     private String cep;
-    private String largadouro;
+    private String logradouro;
     private String complemento;
     private String bairro;
     private String localidade;
@@ -25,10 +25,10 @@ public class CepRequestDTO {
                 .setComplemento(this.complemento)
                 .setIbge(this.ibge)
                 .setUnidade(this.unidade)
-                .setLargadouro(this.largadouro)
+                .setLogradouro(this.logradouro)
                 .setLocalidade(this.localidade)
                 .setUf(this.uf);
 
-        return  cep;
+        return cep;
     }
 }

@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class CepResponseDTO {
     private String cep;
-    private String largadouro;
+    private String logradouro;
     private String complemento;
     private String bairro;
     private String localidade;
@@ -19,7 +19,7 @@ public class CepResponseDTO {
 
     public CepResponseDTO(Cep cep) {
         this.cep = cep.getCep();
-        this.largadouro = cep.getLargadouro();
+        this.logradouro = cep.getLogradouro();
         this.complemento = cep.getComplemento();
         this.bairro = cep.getBairro();
         this.localidade = cep.getLocalidade();

@@ -16,7 +16,7 @@ public class Cep {
 
     @Id
     private String cep;
-    private String largadouro;
+    private String logradouro;
     private String complemento;
     private String bairro;
     private String localidade;
