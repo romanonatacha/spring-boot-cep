@@ -15,7 +15,6 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Cep {
 
     @Id
-    private String id;
     private String cep;
     private String largadouro;
     private String complemento;
